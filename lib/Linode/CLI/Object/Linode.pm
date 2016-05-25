@@ -345,7 +345,7 @@ sub buildrebuild {
             linodeid        => $linode_id,
             label           => "${linode_label}-swap",
             type            => 'swap',
-            size            => 256
+            size            => 4096
         },
         linode_config_create => {
             linodeid        => $linode_id,
